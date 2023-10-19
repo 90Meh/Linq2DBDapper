@@ -36,7 +36,7 @@ internal class Program
                 Console.WriteLine($"{item.FirstName}///{item.LastName}");
             }
             Console.WriteLine("Введите stop для выхода");
-        } while (false);
+        } while (n!="stop");
 
         Console.WriteLine();
 
